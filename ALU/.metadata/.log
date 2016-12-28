@@ -1,0 +1,52 @@
+!SESSION 2016-12-09 09:43:56.228 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-09 09:44:38.620
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\markask'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-12-09 09:46:25.241
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-12-09 09:46:25.319
+!MESSAGE IvyDE plugin started
+!SESSION 2016-12-09 09:47:44.582 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/D:/Temp/ALU/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-09 09:48:00.174
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\markask'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-12-09 09:54:35.497
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-12-09 09:54:35.513
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jface.text 4 0 2016-12-09 09:54:38.287
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.zamia.analysis.SourceLocation2AST.findNearestASTNode(SourceLocation2AST.java:39)
+	at org.zamia.plugin.editors.OpenDeclarationAction.findDeclaration(OpenDeclarationAction.java:130)
+	at org.zamia.plugin.editors.VHDLInformationProvider.findDeclaration(VHDLInformationProvider.java:121)
+	at org.zamia.plugin.editors.VHDLInformationProvider.getInformation2(VHDLInformationProvider.java:103)
+	at org.zamia.plugin.editors.VHDLInformationProvider.getInformation(VHDLInformationProvider.java:70)
+	at org.zamia.plugin.editors.VHDLInformationProvider.getHoverInfo(VHDLInformationProvider.java:156)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:167)

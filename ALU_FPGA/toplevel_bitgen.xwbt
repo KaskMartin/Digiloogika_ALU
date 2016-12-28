@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kaskkmar\Documents\IT6pe\Digiloogika\ALU_FPGA\toplevel.ncd
+OUTFILE=C:\Users\kaskkmar\Documents\IT6pe\Digiloogika\ALU_FPGA\toplevel.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\kaskkmar\Documents\IT6pe\Digiloogika\ALU_FPGA
+LICENSE=WebPack
+USER_INFO=211274422_0_0_030
