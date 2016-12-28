@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-12-14T18:34:36</DateModified>
+  <DateModified>2016-12-28T14:24:06</DateModified>
   <ModuleName>toplevel</ModuleName>
-  <SummaryTimeStamp>2016-12-14T16:59:54</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/ALU_FPGA/iseconfig/toplevel.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/ALU_FPGA\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2016-12-28T14:23:36</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU_FPGA/iseconfig/toplevel.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU_FPGA\</ImplementationReportsDirectory>
   <DateInitialized>2016-11-19T10:09:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

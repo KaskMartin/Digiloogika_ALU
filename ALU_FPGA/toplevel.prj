@@ -1,7 +1,0 @@
-vhdl work "PORTER.vhdl"
-vhdl work "mux.vhdl"
-vhdl work "func_4.vhdl"
-vhdl work "func_3.vhdl"
-vhdl work "func_2.vhdl"
-vhdl work "func_1.vhdl"
-vhdl work "toplevel.vhd"
