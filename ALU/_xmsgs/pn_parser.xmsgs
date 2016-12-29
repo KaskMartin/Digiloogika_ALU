@@ -8,22 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/func_1.vhdl&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/func_2.vhdl&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/func_3.vhdl&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/func_4.vhdl&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/mux.vhdl&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/toplevel.vhdl&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/testbench.vhdl&quot; into library work</arg>
 </msg>
 
 </messages>

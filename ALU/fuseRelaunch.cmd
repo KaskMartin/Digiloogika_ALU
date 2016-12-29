@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/ALU/ALU_TB_isim_beh.exe" -prj "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/ALU/ALU_TB_beh.prj" "work.ALU_TB" 
+-intstyle "ise" -incremental -o "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/ALU_TB_isim_beh.exe" -prj "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/Digiloogika_ALU/ALU/ALU_TB_beh.prj" "work.ALU_TB" 

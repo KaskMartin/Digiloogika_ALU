@@ -63,6 +63,19 @@ begin
 		wait for 10ns;
 		
 		report "Test case 3";
+		a_tb <= "0000";
+		b_tb <= "1111";
+		
+		op_tb <= "00";
+		wait for 10 ns;
+		op_tb <= "01";
+		wait for 10ns;
+		op_tb <= "10";
+		wait for 10ns;
+		op_tb <= "11";
+		wait for 10ns;
+		
+		report "Test case 4";
 		a_tb <= "1010";
 		b_tb <= "0101";
 		
@@ -75,7 +88,7 @@ begin
 		op_tb <= "11";
 		wait for 10ns;
 		
-		report "Test case 4";
+		report "Test case 5";
 		a_tb <= "1100";
 		b_tb <= "0011";
 		
@@ -88,9 +101,9 @@ begin
 		op_tb <= "11";
 		wait for 10ns;
 		
-		report "Test case 5";
+		report "Test case 6";
 		a_tb <= "0011";
-		b_tb <= "0011";
+		b_tb <= "1100";
 		
 		op_tb <= "00";
 		wait for 10 ns;
@@ -101,7 +114,31 @@ begin
 		op_tb <= "11";
 		wait for 10ns;
 		
-		wait;
+		report "Test case 7";
+		a_tb <= "0001";
+		b_tb <= "0001";
+		
+		op_tb <= "00";
+		wait for 10 ns;
+		op_tb <= "01";
+		wait for 10ns;
+		op_tb <= "10";
+		wait for 10ns;
+		op_tb <= "11";
+		wait for 10ns;
+		
+		report "Test case 8";
+		a_tb <= "1000";
+		b_tb <= "1000";
+		
+		op_tb <= "00";
+		wait for 10 ns;
+		op_tb <= "01";
+		wait for 10ns;
+		op_tb <= "10";
+		wait for 10ns;
+		op_tb <= "11";
+		wait for 10ns;
 	end process;
 
 end testbench;

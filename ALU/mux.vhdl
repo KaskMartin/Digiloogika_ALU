@@ -2,11 +2,11 @@
 --  File: mux.vhd
 ------------------------------------------------------------------------------
 --Multiplexer design
---Control signal is CONT_SIG
---The output is chosen from 4 signals with length 4 bits
---If control signal is '1' then input A_in is chosen 
---If '0' then input B_IN is chosen to the output OUT_SIG
-
+--The output is chosen based on 2 bit control signal from 4 signals with length 4 bits
+--If control signal is '00' then input F1_in is chosen to the output m_o
+--If '01' then input F2_in is chosen to the output m_o
+--If '10' then input F3_in is chosen to the output m_o
+--If '11' then input F4_in is chosen to the output m_o
 
 library IEEE;
 use IEEE.std_logic_1164.all;
