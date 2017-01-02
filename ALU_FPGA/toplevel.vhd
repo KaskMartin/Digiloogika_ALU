@@ -1,9 +1,8 @@
 ----------------------------------------------------------------------------------
--- Tallinn University of Technology
--- Keijo Lass, Priit Ruberg
--- Playground FPGA toplevel module
--- Create Date:    10:52:20 11/17/2016 
-
+-- Home assignement in "Digitaalloogika ja -süsteemid" (http://priit.ati.ttu.ee/?page_id=2320)
+-- ALU FPGA synthesis on Playground FPGA
+-- (Playground FPGA toplevel module by Keijo Lass, Priit Ruberg)
+--
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -19,6 +18,7 @@ entity toplevel is
 end toplevel;
 
 architecture RTL of toplevel is
+--the component for PORTER is created
 component PORTER is 
 	Port(JA_P:		in std_logic_vector(7 downto 0); --JA port input
 			JB_P:		in std_logic_vector(7 downto 0); --JB port input
@@ -30,27 +30,31 @@ component PORTER is
 			op : out  STD_LOGIC_VECTOR (1 downto 0);
 			o : in  STD_LOGIC_VECTOR (3 downto 0));
 end component;
-
+--the component for first function is created
 component func1 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for second function is created
 component func2 is 
     Port ( 	a : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for third function is created
 component func3 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); -- 4 bit input 
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for forth function is created
 component func4 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); -- 4 bit input 
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for mux is created
 component mux is 
     Port (m_op : in STD_LOGIC_VECTOR (1 downto 0);
     		F1_in : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
@@ -64,6 +68,8 @@ signal op : STD_LOGIC_VECTOR (1 downto 0):="00";
 signal F1_out, F2_out, F3_out, F4_out : STD_LOGIC_VECTOR (3 downto 0):="0000";
 
 begin --beginning of the architecture
+
+--components are port mapped according to workinstructions: http://priit.ati.ttu.ee/?page_id=2320
 	PO : PORTER port map (JA_P => JA, 	
 								JB_P => JB,	
 								JC_P => JC,	

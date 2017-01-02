@@ -1,10 +1,8 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 use ieee.std_logic_arith.all;
---use ieee.numeric_std.all; --just in case library
---use ieee.std_logic_arith.all; --just in case library
 
--- Fun1 = A + B (aritmeetiline liitmine)
+-- Helper component to map My IO to FPGA IO-s
 entity PORTER is 
     Port (
 			JA_P:		in std_logic_vector(7 downto 0); --JA port input
@@ -30,10 +28,13 @@ JC_P_sign <= signed(JC_P);
 -- JD_P_sign <= signed(JD_P);
 o_sign <= signed(o);
 
-
+--Last 4 bits of JA will be my A-in -signal
 a_sign <= JA_P_sign(3 downto 0);
+--Last 4 bits of JB will be my B-in -signal
 b_sign <= JB_P_sign(3 downto 0);
+--Last 4 bits of JC will be my op-in -signal
 op_sign <= JC_P_sign(1 downto 0);
+--Last 4 LED lights will be controlled by o-out -signal
 LED_P_sign <= ("0000" & o_sign);
 
 a <= std_logic_vector(a_sign);

@@ -1,7 +1,5 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
---use ieee.numeric_std.all; --just in case library
---use ieee.std_logic_arith.all; --just in case library
  
 ENTITY ALU_TB IS --entity of the testbench is always empty
 END ALU_TB;
@@ -35,7 +33,7 @@ begin
 	process
 	
 	begin
-		--for debugging
+		--Testing each function with 8 different combinations of inputs.
 		report "Test case 1";
 		a_tb <= "0000";
 		b_tb <= "0000";

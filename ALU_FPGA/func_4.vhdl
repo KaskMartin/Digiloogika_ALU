@@ -1,7 +1,5 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
---use ieee.numeric_std.all; --just in case library
---use ieee.std_logic_arith.all; --just in case library
 
 -- Fun4 = A and B
 entity func4 is 
