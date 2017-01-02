@@ -1,7 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-use ieee.numeric_std.all; --just in case library
-use ieee.std_logic_arith.all; --just in case library
+--use ieee.numeric_std.all; --just in case library
+--use ieee.std_logic_arith.all; --just in case library
  
 ENTITY ALU_TB IS --entity of the testbench is always empty
 END ALU_TB;

@@ -8,30 +8,31 @@ entity ALU is --do not change entity, it must match testbench component
 end ALU;
 
 architecture toplevel of ALU is
-
---declare components and inner signals here if needed
-
---as example the component for first function is created and port mapped
+--the component for first function is created
 component func1 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for second function is created
 component func2 is 
     Port ( 	a : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for third function is created
 component func3 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); -- 4 bit input 
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for forth function is created
 component func4 is 
     Port ( 	a, b : in  STD_LOGIC_VECTOR (3 downto 0); -- 4 bit input 
 			o : out  STD_LOGIC_VECTOR (3 downto 0)); --4 bit output 
 end component;
 
+--the component for mux is created
 component mux is 
     Port (m_op : in STD_LOGIC_VECTOR (1 downto 0);
     		F1_in : in  STD_LOGIC_VECTOR (3 downto 0); --4 bit input
@@ -43,6 +44,8 @@ end component;
 signal F1_out, F2_out, F3_out, F4_out : STD_LOGIC_VECTOR (3 downto 0):="0000";
 
 begin --beginning of the architecture
+
+--components are port mapped according to workinstructions: http://priit.ati.ttu.ee/?page_id=2320
 	F1 : func1 port map (a => a, 
 								b => b , 
 								o => F1_out);

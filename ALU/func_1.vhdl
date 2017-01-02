@@ -1,8 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 use ieee.std_logic_arith.all;
---use ieee.numeric_std.all; --just in case library
---use ieee.std_logic_arith.all; --just in case library
 
 -- Fun1 = A + B (aritmeetiline liitmine)
 entity func1 is 
